@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网易云音乐</title>
+    <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+<!--公共头部-->
+<div id="g-topbar" class="g-topbar">
+    <!--上层bar-->
+    <div class="m-top">
+        <div class="wrap g-ww">
+            <!--logo-->
+            <h1 class="logo clearfix">
+                <a href="./">网易云音乐</a>
+            </h1>
+            <!--导航部分-->
+            <ul class="m-nav" id="m-nav">
+                <li>
+                    <a class="active" href="#" hidefocus="true">
+                        <em>发现音乐</em>
+                        <sub>&nbsp;</sub>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <em>我的音乐</em>
+                        <sub>&nbsp;</sub>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <em>朋友</em>
+                        <sub>&nbsp;</sub>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <em>音乐人</em>
+                        <sub>&nbsp;</sub>
+                    </a>
+                </li>
+                <li class="li-last">
+                    <a href="#">
+                        <em>下载客户端</em>
+                        <sub>&nbsp;</sub>
+                    </a>
+                    <span class="hot">&nbsp;</span>
+                </li>
+            </ul>
+            <div class="m-login">
+                <a href="#" id="a-login">登录</a>
+                <div class="login-inner">
+                    <ul>
+                        <li>
+                            <a href="#" class="login-a1">
+                                <i class="g-toplist"></i>
+                                <em>手机号登录</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="login-a2">
+                                <i class="g-toplist"></i>
+                                <em>微信登录</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="login-a3">
+                                <i class="g-toplist"></i>
+                                <em>QQ登录</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="login-a4">
+                                <i class="g-toplist"></i>
+                                <em>新浪微博登录</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="login-a5">
+                                <i class="g-toplist"></i>
+                                <em>网易邮箱账号登录</em>
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="login-sanjiao g-toplist"></i>
+                </div>
+            </div>
+            <div class="m-search">
+                <input type="text" placeholder="单曲/歌手/专辑/歌单/MV/用户">
+            </div>
+
+        </div>
+    </div>
+    <!--中层bar-->
+    <div class="m-center"></div>
+    <!--下层bar-->
+    <div class="m-bottom">
+        <div class="g-ww b-nav">
+            <ul id="b-nav">
+                <li><a class="active" href="./"><em>推荐</em></a></li>
+                <li><a href="#"><em>排行榜</em></a></li>
+                <li><a href="./gedan/"><em>歌单</em></a></li>
+                <li><a href="#"><em>主播电台</em></a></li>
+                <li><a href="#"><em>歌手</em></a></li>
+                <li><a href="./newdie/"><em>新碟上架</em></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--首页轮播图-->
+<div class="m-banner" id="m_banner">
+    <div class="g-w">
+        <a href="#" class="b-img"><img src="img/banner/banner_01.jpg" alt=""></a>
+        <div class="b-tods">
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+            <a href="javascript:void(0)"></a>
+        </div>
+        <a href="javascript:void(0)" class="b-l"><</a>
+        <a href="javascript:void(0)" class="b-r">></a>
+        <div class="b-down">
+            <a href="#"></a>
+            <p>PC 安卓 iPhone WP iPad Mac 六大客户端</p>
+        </div>
+    </div>
+</div>
+<!--main部分-->
+<div class="main g-w clearfix">
+    <div class="m-lt">
+        <div class="lt-content">
+            <div class="hot-tj">
+                <div class="hot-hd m-bg">
+                    <a href="#" class="a-lt f-ff2">热门推荐</a>
+                    <div class="hot-tab">
+                        <a href="#">华语</a>
+                        <span>|</span>
+                        <a href="#">流行</a>
+                        <span>|</span>
+                        <a href="#">摇滚</a>
+                        <span>|</span>
+                        <a href="#">民谣</a>
+                        <span>|</span>
+                        <a href="#">电子</a>
+                    </div>
+                    <sub class="m-bg"></sub>
+                    <a href="#" class="a-rt">更多</a>
+                </div>
+                <ul class="clearfix">
+                    <li>
+                        <div class="hot-fm">
+                            <img src="img/singer/hot_01.jpg" alt="">
+                            <a href="#" class="g-coverall"></a>
+                            <div class="fm-bottom g-coverall">
+                                <a href="#" class="g-iconall"></a>
+                                <sub class="g-iconall"></sub>
+                                <span>49万</span>
+                            </div>
+                        </div>
+                        <p>
+                            <!--<i class="dtjm g-icon"></i>-->
+                            <a href="#">怀旧｜予谁思念，清瘦了我的岁月</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="hot-fm">
+                            <img src="img/singer/hot_02.jpg" alt="">
+                            <a href="#" class="g-coverall"></a>
+                            <div class="fm-bottom g-coverall">
+                                <a href="#" class="g-iconall"></a>
+                                <sub class="g-iconall"></sub>
+                                <span>29万</span>
+                            </div>
+                        </div>
+                        <p>
+                            <!--<i class="dtjm g-icon"></i>-->
+                            <a href="#">欧美 | 赠你一曲景似春华的早冬暖歌</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="hot-fm">
+                            <img src="img/singer/hot_03.jpg" alt="">
+                            <a href="#" class="g-coverall"></a>
+                            <div class="fm-bottom g-coverall">
+                                <a href="#" class="g-iconall"></a>
+                                <sub class="g-iconall"></sub>
+                                <span>259万</span>
+                            </div>
+                        </div>
+                        <p>
+                            <a href="#">成长岁月里100味华语女声│精选</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="hot-fm">
+                            <img src="img/singer/hot_04.jpg" alt="">
+                            <a href="#" class="g-coverall"></a>
+                            <div class="fm-bottom g-coverall">
+                                <a href="#" class="g-iconall"></a>
+                                <sub class="g-iconall"></sub>
+                                <span>876</span>
+                            </div>
+                        </div>
+                        <p>
+                            <a href="#">
+                                <i class="dtjm g-icon"></i>「听见广州」下一站，西关</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="hot-fm">
+                            <img src="img/singer/hot_05.jpg" alt="">
+                            <i class="g-icon2 ht-first"></i>
+                            <a href="#" class="g-coverall"></a>
+                            <div class="fm-bottom g-coverall">
+                                <a href="#" class="g-iconall"></a>
+                                <sub class="g-iconall"></sub>
+                                <span>196万</span>
+                            </div>
+                        </div>
+                        <p>
+                            <!--<i class="dtjm g-icon"></i>-->
+                            <a href="#">神翻译 | 你用歌词写下诗篇</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="hot-fm">
+                            <img src="img/singer/hot_06.jpg" alt="">
+                            <a href="#" class="g-coverall"></a>
+                            <div class="fm-bottom g-coverall">
+                                <a href="#" class="g-iconall"></a>
+                                <sub class="g-iconall"></sub>
+                                <span>17659</span>
+                            </div>
+                        </div>
+                        <p>
+                            <i class="dtjm g-icon"></i>
+                            <a href="#">魔性陷阱说唱，点燃大脑亲吻耳膜的邪恶教义</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="hot-fm">
+                            <img src="img/singer/hot_07.jpg" alt="">
+                            <a href="#" class="g-coverall"></a>
+                            <div class="fm-bottom g-coverall">
+                                <a href="#" class="g-iconall"></a>
+                                <sub class="g-iconall"></sub>
+                                <span>287万</span>
+                            </div>
+                        </div>
+                        <p>
+                            <a href="#">你一来，这里的天气都变好了</a>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="hot-fm">
+                            <img src="img/singer/hot_08.jpg" alt="">
+                            <a href="#" class="g-coverall"></a>
+                            <div class="fm-bottom g-coverall">
+                                <a href="#" class="g-iconall"></a>
+                                <sub class="g-iconall"></sub>
+                                <span>10万</span>
+                            </div>
+                        </div>
+                        <p>
+                            <i class="dtjm g-icon"></i>
+                            <a href="#">【3D环绕】The Greatest</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="new-sj">
+                <div class="hot-hd m-bg">
+                    <a href="#" class="a-lt f-ff2">新碟上架</a>
+                    <sub class="m-bg"></sub>
+                    <a href="#" class="a-rt">更多</a>
+                </div>
+                <div class="die-banner" id="die_banner">
+                    <a href="#" class="a-lt m-bg"></a>
+                    <div class="banners">
+                        <ul>
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-01.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">Forget Me Not</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">中島美嘉</a>
+                                </p>
+                            </li>
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-02.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">Inferno (Original Motion Picture Soundtrack)</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">Hans Zimmer</a>
+                                </p>
+                            </li>
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-03.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">언프리티 랩스타 3 컴필레이션</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">Unpretty Rapstar 3</a>
+                                </p>
+                            </li>
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-04.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">Dear Diary/Fighter</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">安室奈美恵</a>
+                                </p>
+                            </li>
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-05.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">구르미 그린 달빛 OST Part.12</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">黄致列</a>
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="two">
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-06.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">Joanne (Deluxe)</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">Lady Gaga</a>
+                                </p>
+                            </li>
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-07.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">成都</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">赵雷</a>
+                                </p>
+                            </li>
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-08.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">SQUARE TWO</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">BLACKPINK</a>
+                                </p>
+                            </li>
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-09.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">年轮说</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">杨丞琳</a>
+                                </p>
+                            </li>
+                            <li class="m-bg">
+                                <div class="b-img">
+                                    <img src="img/singer/die-10.jpg" alt="">
+                                    <a href="#" class="msk g-coverall"></a>
+                                    <a href="#" class="play g-iconall"></a>
+                                </div>
+                                <p class="g-thide">
+                                    <a href="#" class="a-top">人生要漂亮</a>
+                                </p>
+                                <p class="g-thide">
+                                    <a href="#" class="a-bottom">安心亚</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="a-rt m-bg"></a>
+                </div>
+            </div>
+            <div class="bangdan">
+                <div class="hot-hd m-bg">
+                    <a href="#" class="a-lt f-ff2">榜单</a>
+                    <sub class="m-bg"></sub>
+                    <a href="#" class="a-rt">更多</a>
+                </div>
+                <div class="hot-top">
+                    <div class="top-bang">
+                        <div class="top">
+                            <div class="top-lt">
+                                <img src="img/sprites/bsb.jpg" alt="">
+                                <a href="#"></a>
+                            </div>
+                            <div class="top-rt">
+                                <h3>
+                                    <a href="#">云音乐飙升榜</a>
+                                </h3>
+                                <div class="btn">
+                                    <a href="#" class="btn-pl m-bg"></a>
+                                    <a href="#" class="btn-ad m-bg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ol class="clearfix">
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span class="top-red">1</span>
+                                <a href="#" class="g-thide" title="Ain't My Fault (R3hab Remix)">Ain't My Fault (R3hab
+                                    Remix)</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span class="top-red">2</span>
+                                <a href="#" class="g-thide" title="致姗姗来迟的你">致姗姗来迟的你</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span class="top-red">3</span>
+                                <a href="#" class="g-thide" title="Honey Honey ">Honey Honey </a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>4</span>
+                                <a href="#" class="g-thide" title="The Greatest ">The Greatest </a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>5</span>
+                                <a href="#" class="g-thide" title="Setting Fires">Setting Fires</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>6</span>
+                                <a href="#" class="g-thide" title="小幸运">小幸运</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>7</span>
+                                <a href="#" class="g-thide" title="动不动说爱">动不动说爱</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>8</span>
+                                <a href="#" class="g-thide" title="Forget Me Not">Forget Me Not</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>9</span>
+                                <a href="#" class="g-thide" title="너만의 소리">너만의 소리</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>10</span>
+                                <a href="#" class="g-thide" title="我愚蠢的理想主义">我愚蠢的理想主义</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                        </ol>
+                        <div class="top-all">
+                            <a href="#">查看全部></a>
+                        </div>
+                    </div>
+                    <div class="top-bang">
+                        <div class="top">
+                            <div class="top-lt">
+                                <img src="img/sprites/xgb.jpg" alt="">
+                                <a href="#"></a>
+                            </div>
+                            <div class="top-rt">
+                                <h3>
+                                    <a href="#">云音乐新歌榜</a>
+                                </h3>
+                                <div class="btn">
+                                    <a href="#" class="btn-pl m-bg"></a>
+                                    <a href="#" class="btn-ad m-bg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ol>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                                <span class="top-red">1</span>
+                                <a href="#" class="g-thide" title="我的滑板鞋2016">我的滑板鞋2016</a>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span class="top-red">2</span>
+                                <a href="#" class="g-thide" title="成都">成都</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span class="top-red">3</span>
+                                <a href="#" class="g-thide" title="无法长大">无法长大</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>4</span>
+                                <a href="#" class="g-thide" title="PLAYING WITH FIRE">PLAYING WITH FIRE</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>5</span>
+                                <a href="#" class="g-thide" title="Don't Wanna Know">Don't Wanna Know</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>6</span>
+                                <a href="#" class="g-thide" title="我要你">我要你</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>7</span>
+                                <a href="#" class="g-thide" title="STAY">STAY</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>8</span>
+                                <a href="#" class="g-thide" title="24K Magic">24K Magic</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>9</span>
+                                <a href="#" class="g-thide" title="恋我癖">恋我癖</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>10</span>
+                                <a href="#" class="g-thide" title="下完这场雨 ">下完这场雨 </a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                        </ol>
+                        <div class="top-all">
+                            <a href="#">查看全部></a>
+                        </div>
+                    </div>
+                    <div class="top-bang min-w">
+                        <div class="top">
+                            <div class="top-lt">
+                                <img src="img/sprites/ycb.jpg" alt="">
+                                <a href="#"></a>
+                            </div>
+                            <div class="top-rt">
+                                <h3>
+                                    <a href="#">网易原创歌曲榜</a>
+                                </h3>
+                                <div class="btn">
+                                    <a href="#" class="btn-pl m-bg"></a>
+                                    <a href="#" class="btn-ad m-bg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <ol>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span class="top-red">1</span>
+                                <a href="#" class="g-thide" title="无法长大">无法长大</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span class="top-red">2</span>
+                                <a href="#" class="g-thide" title="我愚蠢的理想主义">我愚蠢的理想主义</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span class="top-red">3</span>
+                                <a href="#" class="g-thide" title="生日那天">生日那天</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>4</span>
+                                <a href="#" class="g-thide" title="淤青">淤青</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>5</span>
+                                <a href="#" class="g-thide" title="选择">选择</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>6</span>
+                                <a href="#" class="g-thide" title="爱曾经让我们在一起 ">爱曾经让我们在一起 </a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>7</span>
+                                <a href="#" class="g-thide" title="See The Sun ">See The Sun </a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>8</span>
+                                <a href="#" class="g-thide" title="念">念</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>9</span>
+                                <a href="#" class="g-thide" title="秘密草原">秘密草原</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                            <li onmouseover="this.className='l-hvr'" onmouseout="this.className=''">
+                                <span>10</span>
+                                <a href="#" class="g-thide" title="祝福不可能的事">祝福不可能的事</a>
+                                <div class="min-btn">
+                                    <a href="#" class="bf m-bg" title="播放"></a>
+                                    <a href="#" class="tj g-icon" title="添加到播放列表"></a>
+                                    <a href="#" class="sc m-bg" title="收藏"></a>
+                                </div>
+                            </li>
+                        </ol>
+                        <div class="top-all">
+                            <a href="#">查看全部></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-rt">
+        <div class="m-mylogin m-bg">
+            <p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+            <a href="#" class="m-bg" id="user_login">用户登录</a>
+        </div>
+        <div class="m-singer">
+            <h3 class="m-rt-h">
+                <a href="#">查看全部></a>
+                <span>入驻歌手</span>
+            </h3>
+            <ul class="clearfix">
+                <li>
+                    <a href="#">
+                        <img src="img/singer/singer_01.jpg" alt="">
+                        <div>
+                            <h4>
+                                <span>张惠妹aMEI</span>
+                            </h4>
+                            <p class="g-thide">台湾歌手张惠妹</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/singer/singer_02.jpg" alt="">
+                        <div>
+                            <h4>
+                                <span>尚雯婕</span>
+                            </h4>
+                            <p class="g-thide">原创电子唱作人</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/singer/singer_03.jpg" alt="">
+                        <div>
+                            <h4>
+                                <span>羽泉组合</span>
+                            </h4>
+                            <p class="g-thide">国内知名演唱组合 羽泉</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/singer/singer_04.jpg" alt="">
+                        <div>
+                            <h4>
+                                <span>李志</span>
+                            </h4>
+                            <p class="g-thide">个体音乐人李志</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/singer/singer_05.jpg" alt="">
+                        <div>
+                            <h4>
+                                <span>马頔麻油叶</span>
+                            </h4>
+                            <p class="g-thide">民谣音乐人</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="m-music">
+                <a href="#" class="m-btn">
+                    <i class="m-btn">申请成为网易音乐人</i>
+                </a>
+            </div>
+        </div>
+        <div class="m-dj">
+            <h3 class="m-rt-h">
+                <span>热门DJ</span>
+            </h3>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="img/singer/dj_03.jpg" alt="">
+                    </a>
+                    <div class="info">
+                        <a href="#">灵伟</a>
+                        <sub>&nbsp;</sub>
+                        <p class="g-thide">电台DJ、资深乐评人</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/singer/dj_02.jpg" alt="">
+                    </a>
+                    <div class="info">
+                        <a href="#">庞舸</a>
+                        <sub>&nbsp;</sub>
+                        <p class="g-thide">深圳电台飞扬971主持人</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/singer/dj_04.jpg" alt="">
+                    </a>
+                    <div class="info">
+                        <a href="#">林海</a>
+                        <sub>&nbsp;</sub>
+                        <p class="g-thide">著名音乐节目主持人</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/singer/dj_02.jpg" alt="">
+                    </a>
+                    <div class="info">
+                        <a href="#">阿鹏叔</a>
+                        <sub>&nbsp;</sub>
+                        <p class="g-thide">桒惪SOUND创办人</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/singer/dj_05.jpg" alt="">
+                    </a>
+                    <div class="info">
+                        <a href="#">DJ晓苏</a>
+                        <sub>&nbsp;</sub>
+                        <p class="g-thide">独立DJ，CRI环球旅游广播特邀DJ</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--底部播放部分-->
+<div class="g-play" id="g_play">
+    <div class="p-bg g-playbar"></div>
+    <div class="p-main">
+        <div class="g-w" id="play">
+            <div class="p-kz">
+                <a href="javascript:;" title="上一首" class="kz-s g-playbar"></a>
+                <a href="javascript:;" title="播放" class="kz-p g-playbar"></a>
+                <a href="javascript:;" title="下一首" class="kz-x g-playbar"></a>
+            </div>
+            <div class="p-jd">
+                <div class="p-img">
+                    <img src="img/sprites/default_album.jpg" alt="">
+                    <a href="javascript:;" class="g-playbar"></a>
+                </div>
+                <div class="jindu">
+                    <div class="tiao g-statbar">
+                        <span class="t-red g-statbar"></span>
+                        <span class="t-btn">
+                            <i></i>
+                        </span>
+                    </div>
+                    <span class="t-time">
+                        <i>00:00</i>
+                        <em>/</em>
+                        00:00
+                    </span>
+                </div>
+                <div class="add-btn">
+                    <a href="javascript:;" class="btn-a1 g-playbar" title="收藏"></a>
+                    <a href="javascript:;" class="btn-a2 g-playbar" title="分享"></a>
+                </div>
+            </div>
+            <div class="p-fx g-playbar">
+                <a href="javascript:;" class="a-yl g-playbar"></a>
+                <a href="javascript:;" class="a-sx g-playbar a-xunhuai"></a>
+                <a href="javascript:;" class="a-bflb g-playbar">
+                    <i>0</i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="suo">
+        <div class="suo-lt g-playbar">
+            <a href="javascript:;" class="a-suo g-playbar"></a>
+        </div>
+        <div class="suo-rt g-playbar"></div>
+    </div>
+</div>
+<!--登录框-->
+<div class="dl-transparent" id="dl-tp">
+    <div class="denglu">
+        <div class="dl-top">
+            <span>登录</span>
+        </div>
+        <div class="dl-bottom">
+            <div class="all-denglu clearfix">
+                <div class="a-d-l">
+                    <div class="platform"></div>
+                    <div class="dl-btn m-btn btn-blue">
+                        <a href="javascript:;" class="m-btn">手机号码登录</a>
+                    </div>
+                    <div class="dl-btn m-btn btn-white">
+                        <a href="javascript:;" class="m-btn">注册</a>
+                    </div>
+                </div>
+                <div class="a-d-r">
+                    <ul>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="g-logo adr-wx"></i>
+                                <em>微信登录</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="g-logo adr-qq"></i>
+                                <em>QQ登录</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="g-logo adr-wb"></i>
+                                <em>微博登录</em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="g-logo adr-wyyx"></i>
+                                <em>网易邮箱账号登录</em>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="txdl">
+                <a href="javascript:;">
+                    <span>腾讯微博登录</span>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+        <span class="dl-close">×</span>
+    </div>
+</div>
+<!--公共底部-->
+<div class="g-footer">
+    <div class="g-w">
+        <a href="#" class="a-one">
+            <span class="f-f3">独立音乐人招募计划</span>
+            <br>
+            <span class="f-f4">加入我们 即将与超过亿万乐迷互动</span>
+        </a>
+        <a href="#" class="a-two">
+            <span class="f-f3">音乐专栏招募计划</span>
+            <br>
+            <span class="f-f4">加入我们 与同道中人交流心得</span>
+        </a>
+        <div class="copy">
+            <p>
+                <a href="#">关于网易</a><span>-</span>
+                <a href="#">客户服务</a><span>-</span>
+                <a href="#">服务条款</a><span>-</span>
+                <a href="#">网站导航</a>
+                网易公司版权所有©1997-2016
+            </p>
+            <p>
+                杭州乐读科技有限公司运营：<a href="#">浙网文[2015]0415-135号</a>
+                <a href="#" class="a-right">
+                    <i class="g-icon"></i>
+                    意见反馈
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<a href="#" id="g_back" class="m-back g-sprite">回到顶部</a>
+</body>
+</html>
+<script src="js/music.js"></script>
+<script src="js/index.js"></script>
+<script src="js/main.js"></script>
